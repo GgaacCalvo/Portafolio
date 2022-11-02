@@ -10,3 +10,16 @@
 .cont {
     height: 100vh;
 }
+.arriba{
+    background-color: white;
+    height: 35px;
+    border-radius: 100px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    color: black;
+    margin-top:25%;
+    position: fixed; 
+}

@@ -2,10 +2,11 @@ import "./Home.css";
 import NavBar from "./NavBar";
 import guille from "../assets/guille.jpg";
 import { MdWavingHand } from "react-icons/md";
+import Bop from "./Bop/Bop";
 
 const Home = () => {
   return (
-    <div className="cont">
+    <div id="home" className="cont">
       <NavBar></NavBar>
 
       {/* <div className="present">
@@ -33,6 +34,9 @@ const Home = () => {
             <img src={guille} alt="image" className="picture" />
           </div>
         </div>
+      </div>
+      <div className="arriba">
+        <Bop />
       </div>
     </div>
   );

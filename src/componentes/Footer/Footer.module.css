@@ -1,0 +1,29 @@
+
+.heart{
+    color: red;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialitem{
+    width: auto;
+    height: auto;
+    padding: 5%;
+    margin: 1%;
+    color: black;
+}
+.socialitem:hover{
+    color: rgba(0, 0, 0, 0.673);
+    
+    cursor:pointer;
+    
+}
