@@ -15,6 +15,7 @@
     -webkit-backdrop-filter: blur( 6.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
 }
 .skills{
     display: flex;
@@ -33,6 +34,8 @@
     align-items: center;
     font-family: 'Lato', sans-serif;
     font-family: 'Lora', serif;
+
+    
 }
 .sk:hover{
     transition-duration: 0.4s;
@@ -42,4 +45,5 @@
     font-size: 3.4rem;
     font-family: 'Lato', sans-serif;
     font-family: 'Lora', serif;
+  
 }

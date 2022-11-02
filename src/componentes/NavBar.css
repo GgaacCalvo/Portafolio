@@ -7,3 +7,28 @@
     width: 100%;
     
 }
+.social {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+.social-item{
+    color: black;
+    text-decoration: none;
+    padding: 10%;
+
+}
+.social-item:hover{
+    color: rgba(0, 0, 0, 0.637);
+    
+    transform: scale(1.5);
+    cursor:pointer;
+}
+.litem{
+    
+}
+.litem:hover{
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+  
+}
