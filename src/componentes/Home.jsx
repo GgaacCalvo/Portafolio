@@ -19,16 +19,9 @@ const Home = () => {
         <div class="d-flex flex-row justify-content-center">
           <div class="d-flex flex-column justify-content-center align-items-center">
             <h1 class="fw-light text-white m-0 present">
-              Hola
-              <MdWavingHand />, soy Guillermo Calvo
+              Hola, soy Guillermo Calvo
             </h1>
-            <h3 class="fw-light text-white m-0 ">Full Stack Developer</h3>
-            <h6>
-              Portfolio en proceso..{" "}
-              <a href="https://github.com/GgaacCalvo">
-                visita mi github para mas información
-              </a>
-            </h6>
+            <h3 class="fw-light text-white m-0 text">Full Stack Developer</h3>
           </div>
           <div class="pic-cont">
             <img src={guille} alt="image" className="picture" />

@@ -1,16 +1,18 @@
 import pdf from "../../assets/CurriculumGuillermoCalvo.pdf";
 import resumeData from "../../resumeData";
 import st from "./About.module.css";
+import "./About.css";
 const About = () => {
   return (
     <section id="about">
       <div className={st.cont}>
         <span className={st.about}>
-          <strong>Sobre mi</strong>
+          <strong className="text">Sobre mi</strong>
         </span>
-        <p>{resumeData.aboutme}</p>
+        <p className="text">{resumeData.aboutme}</p>
         <span>
           <a
+            className="download"
             href={pdf}
             target="_blank"
             rel="noreferrer"

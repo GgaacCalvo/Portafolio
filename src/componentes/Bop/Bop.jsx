@@ -1,8 +1,9 @@
 import st from "./Top.module.css";
+import "../Skills/Skills.css";
 const Bop = () => {
   return (
     <div className={st.bop}>
-      <a className={st.arrow} id="back-to-top" href="#home">
+      <a className="text" id="back-to-top" href="#home">
         ^
       </a>
     </div>

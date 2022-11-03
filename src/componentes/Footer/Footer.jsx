@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={st.cont}>
       <div className={st.copyright}>
-        <p>
+        <p className="text">
           {" "}
           © 2022 - Desarrollado con <BsFillHeartFill className={st.heart} /> por
           Guillermo Calvo
@@ -19,7 +19,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             {" "}
-            <BsLinkedin />{" "}
+            <BsLinkedin className={st.pic} />{" "}
           </a>
           <a
             className={st.socialitem}

@@ -5,13 +5,14 @@
 } */
 .present{
    padding: 3rem;
-   background: linear-gradient(-90deg, #2355d5, #3db6ce, #e79e31, #f0f35b);
+   /* background: linear-gradient(-90deg, #2355d5, #3db6ce, #e79e31, #f0f35b); */
+   background: linear-gradient(-90deg, #fff, #fff, #000, #f000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
     animation: gradient 15s ease infinite;
     background-clip: text;
-  background-size: 200% 200%;
+  background-size: 400% 400%;
   background-position: 100% ;
 }
 

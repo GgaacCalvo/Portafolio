@@ -5,27 +5,34 @@
     backdrop-filter: blur( 9.5px );
     -webkit-backdrop-filter: blur( 9.5px );
     width: 100%;
+    z-index: 10;
     
 }
 .social {
     display: flex;
     flex-direction: row;
     margin-right: 5%;
+    
 }
 .social-item{
     color: black;
-    text-decoration: none;
     padding: 10%;
-
 }
 .social-item:hover{
     color: rgba(0, 0, 0, 0.637);
-    
     transform: scale(1.5);
     cursor:pointer;
+    
 }
 .litem{
-    
+    background: linear-gradient(-90deg, #fff, #fff, #000, #f000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    animation: gradient 15s ease infinite;
+    background-clip: text;
+  background-size: 400% 400%;
+  background-position: 100% ;
 }
 .litem:hover{
     text-decoration-line: underline;
