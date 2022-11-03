@@ -5,8 +5,16 @@
 } */
 .present{
    padding: 3rem;
-   
+   background: linear-gradient(-90deg, #f0f35b, #e79e31, #3db6ce, #2355d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    animation: gradient 15s ease infinite;
+    background-clip: text;
+  background-size: 200% 100%;
+  background-position: 100%;
 }
+
 .cont {
     height: 100vh;
 }

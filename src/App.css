@@ -1,12 +1,13 @@
 
 
 .app {
-	 /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);  */
+	  background: linear-gradient(-90deg, #f0f35b, #e79e31, #3db6ce, #2355d5);  
+	  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);   */
 	/* background: linear-gradient(-45deg, #eec752, #a03ce7, #d57c23, #6d23d5); */
 	/* background: linear-gradient(-45deg, rgba(86, 54, 137, 0.668) 0%, rgba(9,94,121,1) 39%, rgba(0,212,255,1) 100%); */
-	background: linear-gradient(-45deg, #eecf52, #e73c59, #23d5a8, #23d53b);
+	/* background: linear-gradient(-45deg, #eecf52, #e73c59, #23d5a8, #23d53b); */
 	background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: gradient 15s ease infinite;
 	height: 100vh;
 	font-family: 'Lato', sans-serif;
     font-family: 'Lora', serif;
