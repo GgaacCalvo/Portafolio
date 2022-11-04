@@ -1,7 +1,8 @@
 import express from "./assets/express.png";
 import cssLogo from "./assets/css-logo.png";
 import sequelize from "./assets/sequelize.png";
-
+import home from "./assets/home.png"
+import food from "./assets/food.png"
 
 let resumeData = {
     "name": "Guillermo Calvo",
@@ -67,14 +68,14 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Changuitas",
-        "description":"Sitio web para contactar servicio de un profesional. Permite logearse con google o mail, chatear en vivo con un trabajador, añadir favoritos, seguidores, ubicarlos en el maps, suscribirse a premium, entre otras funcionalidades",
-        "imgurl":"https://github.com/GgaacCalvo/GgaacCalvo/blob/main/assets/home.png",
+        "description":"Sitio web para contratar servicio de un profesional.",
+        "imgurl": home,
         "deploy":"https://font-pf.vercel.app/"
       },
       {
         "name":"FOODS APP",
         "description":"Página web donde podrás crear, buscar, filtrar y ver detalles referidos a recetas de comidas.",  
-        "imgurl":"https://github.com/GgaacCalvo/GgaacCalvo/blob/main/assets/lala2.png",
+        "imgurl": food,
         "deploy":"https://pifoodhenry.vercel.app"
       },
     ],

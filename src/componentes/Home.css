@@ -32,3 +32,16 @@
     margin-top:25%;
     position: fixed; 
 }
+.mob{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media all and (max-width: 576px) {
+    .mob{
+        display:flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+}

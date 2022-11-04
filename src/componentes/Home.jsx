@@ -16,7 +16,7 @@ const Home = () => {
         </h3>
       </div> */}
       <div class="d-flex flex-column justify-content-center w-100 h-100">
-        <div class="d-flex flex-row justify-content-center">
+        <div class="mob">
           <div class="d-flex flex-column justify-content-center align-items-center">
             <h1 class="fw-light text-white m-0 present">
               Hola, soy Guillermo Calvo

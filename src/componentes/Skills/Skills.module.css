@@ -32,8 +32,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Lora', serif;
+    font-family: 'Roboto Mono', monospace;
 
     
 }
@@ -43,7 +42,6 @@
 }
 .tecnologias{
     font-size: 3.4rem;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Lora', serif;
+    font-family: 'Roboto Mono', monospace;
   
 }

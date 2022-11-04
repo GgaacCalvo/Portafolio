@@ -39,3 +39,14 @@
     text-decoration-style: wavy;
 
 }
+@media all and (max-width: 990px) {
+    .social{
+        display: none;
+    }
+}
+@media all and (max-width: 576px) {
+    .social{
+        display: none;
+    }
+}
+
