@@ -33,12 +33,13 @@
     justify-content: center;
     align-items: center;
     font-family: 'Roboto Mono', monospace;
-
+    filter: saturate(10%);
     
 }
 .sk:hover{
     transition-duration: 0.4s;
     transform: scale(1.1);
+    filter: saturate(100%)
 }
 .tecnologias{
     font-size: 3.4rem;

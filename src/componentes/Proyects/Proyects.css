@@ -87,20 +87,29 @@
 .button1{
     padding: 0.5% 5%;
     margin: 4% 0 0 0;
-    background-image: linear-gradient(135deg,#008a83,greenyellow);
-    background-clip: text;
+    /* background-image: linear-gradient(90deg,#008a83,greenyellow);
+    background-clip: text; */
     font-weight: 600;
     -webkit-text-fill-color: transparent;
     border-width: 3px;
     border-style: solid;
-    -o-border-image: linear-gradient(135deg,#008a83,greenyellow);
-    border-image: linear-gradient(135deg,#008a83,greenyellow);
+    -o-border-image: linear-gradient(90deg,#d5dcdc,rgb(9, 9, 9));
+    border-image: linear-gradient(90deg,#d5dcdc,rgb(9, 9, 9));
     border-image-slice: 1;
     cursor: pointer;
     position: relative;
     z-index: 1;
     overflow: hidden;
     display: inline-block;
+    background: linear-gradient(-90deg, #fff, #fff, #000, #f000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    animation: gradient 15s ease infinite;
+    background-clip: text;
+  background-size: 400% 400%;
+  background-position: 200% ;
+  
 }
 
 .button1:hover{
@@ -109,7 +118,7 @@
 }
 .button1::after {
     content: "";
-    background-image: linear-gradient(135deg,#008a83,greenyellow);
+    background-image: linear-gradient(135deg,#d5dcdc,rgb(9, 9, 9));
     position: absolute;
     z-index: -1;
     padding: 16px 20px;

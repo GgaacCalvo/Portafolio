@@ -45,3 +45,11 @@
         width: fit-content;
     }
 }
+.textfield{
+    color: black;
+    width: 10%;
+}
+.textfield:hover{
+    text-decoration: none;
+    color:white;
+}
