@@ -4,7 +4,7 @@ import "../About/About.css";
 
 export default function Projects() {
   return (
-    <section id="portfolio">
+    <section id="proyects">
       <div className="row-projects">
         <span className="titulo-span text"> Proyectos </span>
         <div className="portfolio-wrapper">

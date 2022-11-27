@@ -39,7 +39,9 @@
 .sk:hover{
     transition-duration: 0.4s;
     transform: scale(1.1);
-    filter: saturate(100%)
+    filter: saturate(100%);
+    cursor: pointer;
+    
 }
 .tecnologias{
     font-size: 3.4rem;

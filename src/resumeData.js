@@ -63,7 +63,11 @@ let resumeData = {
       {
         "skillname":"Git",
         "img":"https://miro.medium.com/max/650/1*zzvdRmHGGXONZpuQ2FeqsQ.png"
-      },    
+      }, 
+      {
+        "skillname":"MongoDB",
+        "img":"https://www.svgrepo.com/show/331488/mongodb.svg"
+      },   
     ],
     "portfolio":[
       {
