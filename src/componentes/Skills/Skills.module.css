@@ -5,7 +5,8 @@
 .cont{
     display: flex;
     flex-direction: column;
-    margin: 6%;
+    margin: auto;
+    width: fit-content;
     padding: 2%;
     justify-content: center;
     align-items: center;

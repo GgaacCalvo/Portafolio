@@ -10,10 +10,13 @@
     color: black;
     margin-top:25%;
     position: fixed;
+    
 }
 .bop{
     
     
+    
+    z-index: 10;
     
     border: 1px solid black;
     width: fit-content ;
@@ -23,12 +26,19 @@
     background-color: transparent;
     box-shadow: 0 8px 32px 0 rgba(227, 227, 227, 0.37);
    
+    
 }
 .bop:hover{
     background-color: rgba(0, 0, 0, 0.7); 
     
 }
-
+.b2{
+    color:black;
+    text-decoration: none;
+}
+.b2:hover{
+    color:gray;
+}
 .bop2{
     
     
