@@ -19,8 +19,16 @@
 }
 
 .picture{
-    
+	cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
     border-radius: 50%;
+}
+.picture:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
 }
 h6{
     text-decoration: none;

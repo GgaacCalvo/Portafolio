@@ -34,11 +34,40 @@
   background-size: 400% 400%;
   background-position: 100% ;
 }
-.litem:hover{
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-
+.ait{
+    display: inline-block;
+    position: relative;
+    background: linear-gradient(-90deg, #fff, #fff, #000, #f000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    animation: gradient 15s ease infinite;
+    background-clip: text;
+  background-size: 400% 400%;
+  background-position: 100% ;
+    
 }
+.ait:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+.ait::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, #fff, #fff, #000, #f000);
+    
+    
+    font-weight: bolder;
+    animation: gradient 15s ease infinite;
+    
+  background-size: 400% 400%;
+  background-position: 100% ;
+  }
 @media all and (max-width: 990px) {
     .social{
         display: none;
