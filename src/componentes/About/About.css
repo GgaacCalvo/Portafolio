@@ -22,5 +22,19 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  
+}
+.bop{
+  background: linear-gradient(90deg, #000, rgb(34, 32, 32), #fff, #fff); 
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+	font-family: 'Roboto Mono', monospace;
+}
+.boptext{
+  background: linear-gradient(-90deg, #000, rgb(34, 32, 32), #fff, #fff); 
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	border-radius: 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

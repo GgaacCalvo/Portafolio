@@ -24,11 +24,11 @@ const Bop = () => {
     // </a>
     <button
       type="button"
-      class="btn btn-danger btn-floating btn-lg"
+      class="btn btn-floating btn-lg bop"
       id="btn-back-to-top"
       onClick={() => backToTop()}
     >
-      <i class="fas fa-arrow-up"></i>
+      <i class="boptext fas fa-arrow-up "></i>
     </button>
     // <div className={st.bop}>
     //   <a className="textfield" id="back-to-top" href="#home">
