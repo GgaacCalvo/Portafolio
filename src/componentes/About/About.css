@@ -18,3 +18,9 @@
   background-size: 400% 400%;
   background-position: 100% ;
 }
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  
+}
