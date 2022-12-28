@@ -44,7 +44,6 @@ const Home = () => {
               <h3 class="fw-light text-white m-0 text">Full Stack Developer</h3>
             </div>
           </motion.div>
-
           <motion.div>
             <motion.div
               ref={constraintsRef}
@@ -78,6 +77,14 @@ const Home = () => {
             <img src={guille} alt="image" className="picture" />
           </div> */}
         </div>
+      </div>
+      <div id="estrellas">
+        <div id="estrella" className="estrella"></div>
+        <div id="estrella" className="estrella"></div>
+        <div id="estrella" className="estrella"></div>
+        <div id="estrella" className="estrella"></div>
+        <div id="estrella" className="estrella"></div>
+        <div id="estrella" className="estrella"></div>
       </div>
       <div className="arriba">
         <Bop />

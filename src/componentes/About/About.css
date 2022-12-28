@@ -20,8 +20,8 @@
 }
 #btn-back-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2rem;
+  right: 2rem;
 }
 .bop{
   background: linear-gradient(90deg, #000, rgb(34, 32, 32), #fff, #fff); 
@@ -38,3 +38,121 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
+#estrella {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: black;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid black;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg);
+  
+  
+}
+/* crear estrellas con blanco para que se vean cuando esta en blacno en las mismas posiciones a ver si se superponen */
+#estrella:before {
+  border-bottom: 80px solid black;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+#estrella:after {
+  position: absolute;
+  display: block;
+  color: black;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid black;
+  border-left: 100px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+  
+}
+.estrella{
+ width: 80px;
+ height: 80px;
+ opacity: 0.3;
+ position: absolute;
+ bottom: -150;
+ 
+ animation: burbujas 3s linear infinite;
+ 
+ 
+}
+
+.estrella:nth-child(1){
+  width: 80px;
+  height: 80px;
+  left: 35%;
+  animation-duration: 4s;
+  animation-delay: 7s;
+}
+.estrella:nth-child(2){
+  width: 80px;
+  height: 80px;
+  left: 25%;
+  animation-duration: 4s;
+  animation-delay: 4s;
+}
+.estrella:nth-child(3){
+  width: 80px;
+  height: 80px;
+  left: 55%;
+  animation-duration: 4s;
+  animation-delay: 5s;
+}
+.estrella:nth-child(4){
+  width: 80px;
+  height: 80px;
+  left: 75%;
+  animation-duration: 4s;
+  animation-delay: 7s;
+}
+.estrella:nth-child(5){
+  width: 80px;
+  height: 80px;
+  left: 90%;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+
+
+
+@keyframes burbujas {
+  0%{
+    bottom: 0;
+    opacity: 0;
+    color: white;
+
+  }
+  30%{
+    transform: translateX(30px);
+  }
+  50%{
+    opacity: .4;
+  }
+  100%{
+    bottom: 100vh;
+    opacity: 0;
+    color: black
+  }
+
+}
+
+
