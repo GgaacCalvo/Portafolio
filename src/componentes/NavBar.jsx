@@ -1,7 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
-
+import { Link } from "react-scroll";
 import { BsWhatsapp } from "react-icons/bs";
 
 import { motion } from "framer-motion";
@@ -35,30 +35,58 @@ const NavBar = () => {
         <ul class="navbar-nav">
           <li class="nav-item active litem">
             <div className="ait">
-              <a class="nav-link " href="/">
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                class="nav-link "
+              >
                 Inicio <span class="sr-only ">(current)</span>
-              </a>
+              </Link>
+            </div>
+          </li>
+          <li class="nav-item active litem">
+            <div className="ait">
+              <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+                class="nav-link "
+              >
+                Skills <span class="sr-only">(current)</span>
+              </Link>
             </div>
           </li>
           <li class="nav-item active litem ">
             <div className="ait">
-              <a class="nav-link" href="#about">
-                Sobre Mi <span class="sr-only ">(current)</span>
-              </a>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                class="nav-link "
+              >
+                Sobre Mi <span class="sr-only">(current)</span>
+              </Link>
             </div>
           </li>
           <li class="nav-item active litem">
             <div className="ait">
-              <a class="nav-link" href="#skills">
-                Skills <span class="sr-only">(current)</span>
-              </a>
-            </div>
-          </li>
-          <li class="nav-item active litem">
-            <div className="ait">
-              <a class="nav-link" href="#proyects">
+              <Link
+                to="proyects"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+                class="nav-link "
+              >
                 Proyectos <span class="sr-only">(current)</span>
-              </a>
+              </Link>
             </div>
           </li>
         </ul>

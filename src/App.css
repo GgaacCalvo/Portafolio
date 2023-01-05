@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 .app {
+	width: max-content;
 	   /* background: linear-gradient(-90deg, #f0f35b, #e79e31, #3db6ce, #2355d5);    */
 	  background: linear-gradient(-90deg, #000, rgb(34, 32, 32), #fff, #fff); 
 	   /*probar que no sea de blanco a negro, sino que termine en otro tono  */
@@ -19,11 +20,13 @@
 }
 
 .picture{
+	position: relative;
 	cursor: move; /* fallback if grab cursor is unsupported */
     cursor: grab;
     cursor: -moz-grab;
     cursor: -webkit-grab;
     border-radius: 50%;
+	z-index: 90;
 }
 .picture:active {
     cursor: grabbing;

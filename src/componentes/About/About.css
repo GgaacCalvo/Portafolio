@@ -113,11 +113,11 @@
 .estrella:nth-child(3){
   width: 80px;
   height: 80px;
-  left: 55%;
+  left: 40%;
   animation-duration: 4s;
   animation-delay: 5s;
 }
-.estrella:nth-child(4){
+ .estrella:nth-child(4){
   width: 80px;
   height: 80px;
   left: 75%;
@@ -130,13 +130,13 @@
   left: 90%;
   animation-duration: 4s;
   animation-delay: 1s;
-}
+} 
 
 
 
 @keyframes burbujas {
   0%{
-    bottom: 0;
+    bottom: -150;
     opacity: 0;
     color: white;
 

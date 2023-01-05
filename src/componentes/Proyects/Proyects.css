@@ -1,16 +1,17 @@
 #portfolio{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     
     
 }
 
 .row-projects{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    
     width:max-content;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     margin: auto;
     padding-top: 3%;
@@ -27,9 +28,9 @@
 }
 
 .portfolio-wrapper{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display:flex;
+    flex-direction: row-reverse;
+    
     align-items: center;
     justify-content: center;
     width: 100%;

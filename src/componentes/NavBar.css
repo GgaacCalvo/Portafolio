@@ -60,13 +60,28 @@
     bottom: 0;
     left: 0;
     background: linear-gradient(-90deg, #fff, #fff, #000, #f000);
-    
+    text-decoration: none;
     
     font-weight: bolder;
     animation: gradient 15s ease infinite;
     
   background-size: 400% 400%;
   background-position: 100% ;
+  }
+ 
+  .ait .active{
+    
+    transform-origin: bottom left;
+    
+    
+    text-decoration: none;
+   
+    
+    border-bottom: 2px solid #000;
+  
+
+    /* padding-bottom: 12px;
+    border-bottom: 3px solid gray; */
   }
 @media all and (max-width: 990px) {
     .social{
