@@ -41,7 +41,7 @@
 
 
 
-#estrella {
+/* #estrella {
   margin: 50px 0;
   position: relative;
   display: block;
@@ -55,8 +55,8 @@
   
   
 }
-/* crear estrellas con blanco para que se vean cuando esta en blacno en las mismas posiciones a ver si se superponen */
-#estrella:before {
+ crear estrellas con blanco para que se vean cuando esta en blacno en las mismas posiciones a ver si se superponen 
+ #estrella:before {
   border-bottom: 80px solid black;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
@@ -92,8 +92,6 @@
  bottom: -150;
  
  animation: burbujas 3s linear infinite;
- 
- 
 }
 
 .estrella:nth-child(1){
@@ -130,15 +128,101 @@
   left: 90%;
   animation-duration: 4s;
   animation-delay: 1s;
+}  */
+
+/* crear estrellas con blanco para que se vean cuando esta en blacno en las mismas posiciones a ver si se superponen */
+#fondskill{
+  display:flex;
+  
+}
+.fondskill{
+  width: 60px;
+  height: 60px;
+  
+  opacity: 0.3;
+  position: absolute;
+  bottom: -150;
+  filter: saturate(20%);
+  animation: burbujas 3s linear infinite;
+  
+}
+
+.fondskill:nth-child(1){
+  width: 60px;
+  height: 60px;
+  left: 5%;
+  animation-duration: 4s;
+  animation-delay: 1s;
 } 
-
-
+.fondskill:nth-child(2){
+  width: 60px;
+  height: 60px;
+  left: 20%;
+  animation-duration: 4s;
+  animation-delay: 2s;
+} 
+.fondskill:nth-child(3){
+  width: 60px;
+  height: 60px;
+  left: 30%;
+  animation-duration: 4s;
+  animation-delay: 7s;
+} 
+.fondskill:nth-child(4){
+  width: 60px;
+  height: 60px;
+  left: 40%;
+  animation-duration: 4s;
+  animation-delay: 3s;
+} 
+.fondskill:nth-child(5){
+  width: 60px;
+  height: 60px;
+  left: 50%;
+  animation-duration: 4s;
+  animation-delay: 4s;
+} 
+.fondskill:nth-child(6){
+  width: 60px;
+  height: 60px;
+  left: 60%;
+  animation-duration: 4s;
+  animation-delay: 5s;
+} 
+.fondskill:nth-child(7){
+  width: 60px;
+  height: 60px;
+  left: 70%;
+  animation-duration: 4s;
+  animation-delay: 6s;
+} 
+.fondskill:nth-child(8){
+  width: 60px;
+  height: 60px;
+  left: 80%;
+  animation-duration: 4s;
+  animation-delay: 1s;
+} 
+.fondskill:nth-child(9){
+  width: 60px;
+  height: 60px;
+  left: 90%;
+  animation-duration: 4s;
+  animation-delay: 10s;
+} 
+.fondskill:nth-child(10){
+  width: 60px;
+  height: 60px;
+  left: 10%;
+  animation-duration: 4s;
+  animation-delay: 5s;
+} 
 
 @keyframes burbujas {
   0%{
-    bottom: -150;
+    bottom: 0;
     opacity: 0;
-    color: white;
+   
 
   }
   30%{
@@ -150,7 +234,7 @@
   100%{
     bottom: 100vh;
     opacity: 0;
-    color: black
+    
   }
 
 }

@@ -5,7 +5,7 @@ import { MdWavingHand } from "react-icons/md";
 import Bop from "./Bop/Bop";
 import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
-
+import resumeData from "../resumeData";
 const Home = () => {
   const constraintsRef = useRef([0, 1]);
 
@@ -78,14 +78,43 @@ const Home = () => {
           </div> */}
         </div>
       </div>
-      <div id="estrellas">
-        <div id="estrella" className="estrella"></div>
-        <div id="estrella" className="estrella"></div>
-        <div id="estrella" className="estrella"></div>
-        <div id="estrella" className="estrella"></div>
-        <div id="estrella" className="estrella"></div>
-        <div id="estrella" className="estrella"></div>
+      <div id="burbujas">
+        <div id="fondskill" className="fondskill">
+          <img src={resumeData.skills[8].img} />
+        </div>
+        <div id="fondskill" className="fondskill">
+          <img src={resumeData.skills[9].img} />
+        </div>
+        <div id="fondskill" className="fondskill">
+          <img src={resumeData.skills[7].img} />
+        </div>
+        <div id="fondskill" className="fondskill">
+          <img src={resumeData.skills[6].img} />
+        </div>
+        <div id="fondskill" className="fondskill">
+          <img src={resumeData.skills[5].img} />
+        </div>
+        <div id="fondskill" className="fondskill">
+          <img src={resumeData.skills[4].img} />
+        </div>
+        <div id="fondskill" className="fondskill">
+          <img src={resumeData.skills[3].img} />
+        </div>
+        <div id="fondskill" className="fondskill">
+          <img src={resumeData.skills[10].img} />
+        </div>
+        <div id="fondskill" className="fondskill">
+          <img src={resumeData.skills[2].img} />
+        </div>
       </div>
+      {/* <div id="estrellas">
+        <div id="estrella" className="estrella"></div>
+        <div id="estrella" className="estrella"></div>
+        <div id="estrella" className="estrella"></div>
+        <div id="estrella" className="estrella"></div>
+        <div id="estrella" className="estrella"></div>
+        <div id="estrella" className="estrella"></div>
+      </div> */}
       <div className="arriba">
         <Bop />
       </div>
