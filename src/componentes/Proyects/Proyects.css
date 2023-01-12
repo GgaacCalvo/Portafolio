@@ -5,7 +5,9 @@
     
     
 }
-
+#proyects{
+    height: 100vh;
+}
 .row-projects{
     display: flex;
     flex-direction:column;
