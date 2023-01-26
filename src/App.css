@@ -26,9 +26,9 @@
 	position: absolute;
 	z-index: 81;
 	border-radius: 50%;
-	background: radial-gradient(circle at center, transparent 55%, rgb(115, 115, 115) 50%);
+	background: radial-gradient(circle at center, transparent 58%, rgb(115, 115, 115) 50%);
  
-	top: 27%;
+	top: 29.5%;
 	left: 65.5%;
 }
 .picture{
