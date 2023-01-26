@@ -49,7 +49,6 @@ const Home = () => {
               ref={constraintsRef}
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
-              whileHover={{ scale: 1.1 }}
               transition={{
                 default: {
                   duration: 0.3,
@@ -72,6 +71,7 @@ const Home = () => {
                 className="picture"
               />
             </motion.div>
+            <motion.div id="pic2" className="circlepicture"></motion.div>
           </motion.div>
           {/* <div class="pic-cont">
             <img src={guille} alt="image" className="picture" />

@@ -18,7 +18,19 @@
     padding-top: 10%;
 	
 }
-
+.circlepicture{
+	
+	opacity: 0.5;
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	z-index: 81;
+	border-radius: 50%;
+	background: radial-gradient(circle at center, transparent 60%, rgb(115, 115, 115) 50%);
+ 
+	top: 27%;
+	left: 65.5%;
+}
 .picture{
 	position: relative;
 	cursor: move; /* fallback if grab cursor is unsupported */
@@ -27,6 +39,7 @@
     cursor: -webkit-grab;
     border-radius: 50%;
 	z-index: 90;
+	clip-path: polygon(41% 11%, 36% 13%, 34% 16%, 31% 17%, 27% 20%, 23% 23%, 22% 27%, 22% 31%, 24% 33%, 24% 36%, 24% 42%, 24% 45%, 23% 46%, 23% 49%, 24% 52%, 28% 58%, 30% 57%, 30% 62%, 32% 66%, 33% 69%, 34% 74%, 34% 80%, 33% 83%, 26% 87%, 17% 91%, 10% 94%, 3% 98%, 1% 100%, 100% 100%, 100% 88%, 95% 85%, 88% 84%, 78% 82%, 73% 82%, 66% 80%, 66% 72%, 67% 69%, 69% 67%, 71% 64%, 72% 60%, 74% 56%, 75% 53%, 76% 47%, 75% 40%, 76% 34%, 76% 30%, 75% 25%, 72% 21%, 68% 17%, 61% 14%, 55% 12%, 48% 11%);
 }
 .picture:active {
     cursor: grabbing;
